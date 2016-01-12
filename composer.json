@@ -1,0 +1,21 @@
+{
+    "name": "aksafan/yii2-profiler",
+    "description": "Profiler request-response proessing",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "aksafan",
+            "email": "subzero_ck@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aksafan\\profiler\\": ""
+        }
+    }
+}
